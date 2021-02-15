@@ -9,7 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.4",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
     "next": "10.0.6",
     "postcss": "^8.2.6",
     "react": "17.0.1",
@@ -17,10 +18,13 @@
     "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@emotion/babel-plugin": "^11.2.0",
     "@types/node": "^14.14.27",
     "@types/react": "^17.0.2",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
+    "autoprefixer": "^10.2.4",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-import-resolver-typescript": "^2.3.0",
