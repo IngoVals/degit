@@ -14,7 +14,7 @@ const HeaderTextArea = styled.div(xw`ml-6 leading-5`);
 const Header4 = styled.h4(xw`text-xl font-semibold`);
 const Subheader = styled.h5(xw`font-semibold text-green-600`);
 
-const Home = (): JSX.Element => (
+const Home: React.FC = () => (
   <Area>
     <Card>
       <CardHeader>
